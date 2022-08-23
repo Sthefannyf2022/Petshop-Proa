@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: #24252a;
+    box-shadow: opx 3px 10px #464646;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+.logo h1{
+    color:#ffff;
+}
+
+.nav-list {
+    display:flex;
+    align-items: center;
+    
+
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin:0 15px;
+
+}
+
+.formulario{
+    overflow: hidden;
+    background:#a6a5a8;
+    width: 50%;
+    height: 70%;
+    margin:50px auto ;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+    
+    
+    footer{
+        justify-content:right;
+        text-align:center;
+        background-color: #464646;
+        color: #fff;
+        margin-top: 2px;
+        border-top: 1px solid #333;
+        bottom: 0;
+        left:0;
+        width: 100%;
+        position: fixed;
+      }
+      
+        
+    
+    
+
+
+
+    footer img{
+        width: 35px;
+        height: 35px;
+       
+    }   
+    
+
+ body{ 
+    background: url(../petshopproa/img/fundo3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ 
